@@ -37,11 +37,11 @@ beforeEach(async () => {
         .set('Content-Type', 'application/x-www-form-urlencoded')
         .send({
        
-            status: "pending",
+            status: "completed",
          
         });
       expect(res.statusCode).toBe(200);
-      expect(res.body.task.status).toBe("pending");
+      expect(res.body.task.status).toBe("completed");
     });
   })
 
