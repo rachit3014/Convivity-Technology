@@ -21,12 +21,12 @@ beforeEach(async () => {
       const res = await request(app).post("/create")
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .send({
-        title: "redfg",
-        description: "Description 2",
+        title: "study",
+        description: "Complete homework",
         status: 'pending'
       });
       expect(res.statusCode).toBe(201);
-      expect(res.body.task.title).toBe("redfg");
+      expect(res.body.task.title).toBe("study");
     });
   });
 //  testing for updating a task by its id
@@ -62,7 +62,7 @@ beforeEach(async () => {
         "/task/6630d0321f7cf7a3d4a93a9d"
       );
       expect(res.statusCode).toBe(200);
-      expect(res.body.task.title).toBe("redfg");
+      expect(res.body.task.title).toBe("study");
     });
   });
 
