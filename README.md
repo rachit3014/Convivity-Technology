@@ -63,7 +63,7 @@ npm start
   - **description:** Please input description of your task
   - **status:** Please enter valid status e.g. completed, pending, in progress 
 
-![Screens![Screenshot (302)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/46c90cab-20d0-4cae-bf44-2484550b6268)
+![Screenshot (302)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/46c90cab-20d0-4cae-bf44-2484550b6268)
 
 ### 2. List of all task
 
