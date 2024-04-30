@@ -58,11 +58,19 @@ npm start
 
 - **Url:** http://localhost:8000/create
 - **Method:** POST
+- **Body:** In the body we have to pass
+  - **title:** Please input title of your task
+  - **description:** Please input description of your task
+  - **status:** Please enter valid status e.g. completed, pending, in progress 
+
+![Screens![Screenshot (302)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/46c90cab-20d0-4cae-bf44-2484550b6268)
 
 ### 2. List of all task
 
 - **Url:** http://localhost:8000/
 - **Method:** GET
+
+![Screenshot (305)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/1ad5865a-1d5d-44b0-b13a-3bbabb1cb2c2)
 
 
 ### 3. Task By its id
@@ -72,6 +80,8 @@ npm start
 - **Parameters:**
   -  `id` : Task ID
 
+![Screenshot (303)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/1fe0ab77-6d9c-45b7-817b-ba1ba1721a76)
+
 
 ### 4. Update Task by its id
 
@@ -79,6 +89,11 @@ npm start
 - **Method:** Patch
 - **Parameters:**
   -  `id` : Task ID
+- **Body:** In the body we have to pass
+  - **status:** Please enter valid status e.g. completed, pending, in progress
+
+  ![Screenshot (304)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/539049c3-3966-465e-a5f5-a100043a5885)
+
 
 ### 5. Delete Task by its id
 
@@ -87,8 +102,13 @@ npm start
 - **Parameters:**
   - `id` : Task ID
 
+![Screenshot (306)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/8ca73636-3e83-4a28-89b5-7695dbbb6ffd)
+
 
 ## Test for API Endpoints
 
 - Unit tests for the API endpoints to ensure they function correctly.
 - Include integration tests that test the API endpoints with the database to ensure the system works as a whole.
+
+  ![Screenshot (300)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/13dd06cd-97a2-490b-90f2-527e4b2114ab)
+
