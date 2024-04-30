@@ -33,10 +33,11 @@ beforeEach(async () => {
   describe("Patch update/:id", () => {
     it("should update a task", async () => {
       const res = await request(app)
+          // provide task id (/update/:id)
         .patch("/update/6630d0321f7cf7a3d4a93a9d")
         .set('Content-Type', 'application/x-www-form-urlencoded')
         .send({
-       
+       // provide status 
             status: "completed",
          
         });
@@ -45,7 +46,7 @@ beforeEach(async () => {
     });
   })
 
-//  testing for getting  all task by its id
+//  testing for getting  all task 
   describe("GET /Task", () => {
     it("should return all task", async () => {
       const res = await request(app).get("/");
@@ -58,9 +59,9 @@ beforeEach(async () => {
 //   testing for getting  a task by its id
   describe("GET task/:id", () => {
     it("should return a task", async () => {
-      const res = await request(app).get(
-        "/task/6630d0321f7cf7a3d4a93a9d"
-      );
+      const res = await request(app)
+           // provide task id (/task/:id)
+          .get("/task/6630d0321f7cf7a3d4a93a9d");
       expect(res.statusCode).toBe(200);
       expect(res.body.task.title).toBe("study");
     });
@@ -69,9 +70,9 @@ beforeEach(async () => {
 //    testing for deleting a task by its id
   describe("DELETE /delete/:id", () => {
     it("should delete a task", async () => {
-      const res = await request(app).delete(
-        "/delete/6630d0321f7cf7a3d4a93a9d"
-      );
+      const res = await request(app)
+           // provide task id (/delete/:id)
+          .delete("/delete/6630d0321f7cf7a3d4a93a9d");
       expect(res.statusCode).toBe(204);
     });
   });
