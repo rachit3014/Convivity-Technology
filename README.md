@@ -109,6 +109,7 @@ npm start
 
 - Unit tests for the API endpoints to ensure they function correctly.
 - Include integration tests that test the API endpoints with the database to ensure the system works as a whole.
+- Provide task id in task.test.js file and status to run test.
 
   ![Screenshot (307)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/abfdf1fe-07a3-47d2-a04b-533b1b28ac03)
 
