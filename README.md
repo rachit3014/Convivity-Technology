@@ -116,3 +116,10 @@ npm start
 # Start the test
 npm run test
 ```
+## Test Coverage:
+### The test suite covers the following endpoints and functionalities:
+- Creating a new task.
+- Updating a task's status.
+- Retrieving all tasks.
+- Retrieving a single task by ID.
+- Deleting a task by ID.
