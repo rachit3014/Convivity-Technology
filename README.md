@@ -9,7 +9,7 @@ Develop a RESTful API using Node.js that allows users to manage tasks. The syste
 3. [Technologies Used](#technologies-used)
 4. [Getting Started](#getting-started)
 5. [Backend API Endpoints](#backend-api-endpoints)
-6. [REST API Endpoints](#rest-api-endpoints)
+6. [Test for API Endpoints](#test-for-api-endpoints)
 
 ## Introduction
 The system should support creating, retrieving, updating, and deleting tasks. Each task should have a title, description, creation date, and status (e.g., pending, in progress, completed).Include validation to check for invalid inputs (e.g., empty strings).Implemented error handling to manage different types of errors and return appropriate status codes and messages.
