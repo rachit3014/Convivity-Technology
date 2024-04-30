@@ -112,4 +112,7 @@ npm start
 
   ![Screenshot (307)](https://github.com/rachit3014/Convivity-Technology/assets/84663169/abfdf1fe-07a3-47d2-a04b-533b1b28ac03)
 
-
+```bash
+# Start the backend server
+npm run test
+```
